@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #007bff;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #f0f0f0;
+}
+
+.recruiters-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.recruiters-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.recruiters-features,
+.recruiters-how-it-works,
+.recruiters-testimonials,
+.recruiters-resources,
+.recruiters-contact,
+.recruiters-action {
+    margin-bottom: 40px;
+}
+
+.recruiters-features h2,
+.recruiters-how-it-works h2,
+.recruiters-testimonials h2,
+.recruiters-resources h2,
+.recruiters-contact h2,
+.recruiters-action h2 {
+    color: #007bff;
+}
+
+.recruiters-features ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.recruiters-testimonials p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.recruiters-resources ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.recruiters-contact p {
+    margin-bottom: 10px;
+}
+
+.signup-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.signup-btn:hover {
+    background-color: #0056b3;
+}
